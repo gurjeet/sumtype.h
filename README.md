@@ -40,7 +40,7 @@ Just include the header file `sumtype.h`.
 
 
 ## Usage
-The provided macros are a syntactic sugar over tagged unios. The above code is equivalent to:
+The provided macros are a syntactic sugar over tagged unions. The above code is equivalent to:
 ```c
 struct BinaryTree {
     enum { Leaf, Node } tag;
